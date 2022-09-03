@@ -34,7 +34,7 @@ if (xhr.readyState === XMLHttpRequest.DONE){
      } else {
          err = new Error('Ошибка соединения');
      }
-        options.callback(err.resp);
+        options.callback(err, resp);
         }
     }
 
